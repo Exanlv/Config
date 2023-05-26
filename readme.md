@@ -2,6 +2,8 @@
 
 Simple package to handle PHP based configuration files.
 
+Config keys can be used to cause other php files to be executed. Be careful and do NOT trust user input anywhere near a config key.
+
 ### Install
 
 ```sh
